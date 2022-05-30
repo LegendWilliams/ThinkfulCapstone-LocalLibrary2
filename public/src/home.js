@@ -1,5 +1,9 @@
 function getTotalBooksCount(books) {
-  // testing if connected
+  let total = 0
+  for (let i = 0; i < books.length; i++) {
+    total++
+  }
+  return total;
 }
 
 function getTotalAccountsCount(accounts) {}
